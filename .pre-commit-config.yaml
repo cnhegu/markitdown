@@ -3,3 +3,6 @@ repos:
     rev: 23.7.0 # Use the latest version of Black
     hooks:
       - id: black
+
+-name: Attest Build Provenance
+uses: actions/attest-build-provenance@v4.1.0
